@@ -13,10 +13,17 @@ export default defineConfig({
 			},
 			sidebar: [
 				{
+					label: 'Introduction',
+					items: [
+						// Each item here is one entry in the navigation menu.
+						{ label: 'Login', link: '/aadvanto-docs/products/add_product/' },
+					],
+				},
+				{
 					label: 'Guides',
 					items: [
 						// Each item here is one entry in the navigation menu.
-						{ label: 'Example Guide', link: '/guides/example/' },
+						{ label: 'Example Guide', link: '/aadvanto-docs/guides/example/' },
 					],
 				},
 				{
