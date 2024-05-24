@@ -1,6 +1,6 @@
 ---
-title: Welcome to Billing System
-description: Get started selling your own products with our state-of-the-art billing system.
+title: Example Guide
+description: A guide in my new Starlight docs site.
 ---
 
 Guides lead a user through a specific task they want to accomplish, often with a sequence of steps.
