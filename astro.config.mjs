@@ -3,9 +3,10 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
+	site: 'https://garbled-alligator-aadvanto.github.io',
 	integrations: [
 		starlight({
-			title: 'My Docs',
+			title: 'Billing System Documentation',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
