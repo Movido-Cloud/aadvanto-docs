@@ -1,10 +1,11 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
+const isProduction = process.env.NODE_ENV == 'production'
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://movido-cloud.github.io/aadvanto-docs',
-	base: '/aadvanto-docs',
+	base: isProduction ? '/aadvanto-docs' : '/',
 	integrations: [
 		starlight({
 			title: 'Billing System Documentation',
