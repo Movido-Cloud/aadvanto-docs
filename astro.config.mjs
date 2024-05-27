@@ -3,7 +3,7 @@ import starlight from '@astrojs/starlight';
 
 // https://astro.build/config
 export default defineConfig({
-	site: 'https://movido-cloud.github.io',
+	site: 'https://movido-cloud.github.io/aadvanto-docs',
 	base: '/aadvanto-docs',
 	integrations: [
 		starlight({
