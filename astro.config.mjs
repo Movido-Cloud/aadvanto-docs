@@ -5,10 +5,10 @@ const isProduction = process.env.NODE_ENV == 'production'
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://movido-cloud.github.io/aadvanto-docs',
-	base: isProduction ? '/aadvanto-docs' : '/',
+	base: isProduction ? '/aadvanto-docs' : '/', // Conditionally set the base path
 	integrations: [
 		starlight({
-			title: 'Billing System Documentation',
+			title: 'Billing System Docs',
 			social: {
 				github: 'https://github.com/withastro/starlight',
 			},
