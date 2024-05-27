@@ -12,10 +12,7 @@ export default defineConfig({
 			sidebar: [
 				{
 					label: 'Introduction',
-					items: [
-						// Each item here is one entry in the navigation menu.
-						{ label: 'Login', link: '/products/add_product/' },
-					],
+					autogenerate : { directory: 'introduction' }
 				},
 				{
 					label: 'Guides',
