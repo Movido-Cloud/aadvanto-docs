@@ -13,20 +13,19 @@ export default defineConfig({
         github: "https://github.com/withastro/starlight",
       },
       // Set English as the default language for this site.
-      defaultLocale: "en",
+      defaultLocale: 'en',
       locales: {
         // English docs in `src/content/docs/en/`
-        en: {
+        'en': {
           label: "English",
           lang: "en",
         },
         // German docs in `src/content/docs/de/`
-        de: {
+        'de': {
           label: "Deutsch",
           lang: "de",
         },
       },
-
       sidebar: [
         {
           label: "Introduction",
