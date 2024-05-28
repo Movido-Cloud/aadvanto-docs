@@ -6,7 +6,6 @@ const isProduction = process.env.NODE_ENV == "production";
 export default defineConfig({
   site: "https://movido-cloud.github.io/aadvanto-docs",
   base: isProduction ? "/aadvanto-docs" : "/", // Conditionally set the base path
-  prefixDefaultLocale: true,
   integrations: [
     starlight({
       title: "Billing System Docs",
