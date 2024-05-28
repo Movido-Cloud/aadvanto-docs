@@ -1,0 +1,46 @@
+---
+import StarlightPage from "@astrojs/starlight/components/StarlightPage.astro";
+import { Card, CardGrid } from "@astrojs/starlight/components";
+---
+
+<StarlightPage frontmatter={{ title: "Home / Startseite", template: "splash" }}>
+  <p>Welcome to the Advanto Billing System documentation. Choose your preferred language to get started:</p>
+  <p>Willkommen bei der Dokumentation zum Advanto Billing System. Wählen Sie Ihre bevorzugte Sprache, um loszulegen:</p>
+
+  <h3>Next Steps</h3>
+
+  <CardGrid stagger>
+    <Card title="Read English Docs" icon="open-book">
+      <p>Access the comprehensive guide in English to get started with the Advanto Billing System.</p>
+      <a href="/en/introduction/getting-started/" class="btn btn-primary">Go to English Docs</a>
+    </Card>
+
+    <Card title="Deutsche Dokumentation" icon="open-book">
+      <p>Greifen Sie auf die umfassende Anleitung auf Deutsch zu, um mit dem Advanto-Abrechnungssystem zu beginnen.</p>
+      <a href="/de/introduction/getting-started/" class="btn btn-primary">Zu den deutschen Dokumenten</a>
+    </Card>
+  </CardGrid>
+
+  <h3>Why Choose Advanto?</h3>
+  <CardGrid>
+    <Card title="User-Friendly Interface" icon="user-friendly">
+      <p>Our system is designed with a simple and intuitive interface, making it easy for users of all levels to navigate and utilize effectively.</p>
+    </Card>
+
+    <Card title="Comprehensive Management Tools" icon="dashicons:admin-tools">
+      <p>Manage customers, transactions, and invoices seamlessly with our comprehensive suite of management tools.</p>
+    </Card>
+
+    <Card title="Detailed Reporting" icon="report">
+      <p>Generate detailed reports to monitor business performance and make informed decisions.</p>
+    </Card>
+
+    <Card title="Customizable Templates" icon="template">
+      <p>Create and manage templates for emails and invoices to maintain consistent communication with your customers.</p>
+    </Card>
+  </CardGrid>
+
+  <h2>Support and Help</h2>
+  <p>If you need assistance, our support team is available through the “Tickets” section for submitting inquiries or issues. We are here to help you navigate and utilize the Advanto Billing System's features effectively.</p>
+
+</StarlightPage>
