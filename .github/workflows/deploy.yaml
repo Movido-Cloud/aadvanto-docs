@@ -1,4 +1,4 @@
-name: Deploy to GitHub Pages from Main
+name: Deploy Production
 
 on:
   # Trigger the workflow every time you push to the `main` branch
