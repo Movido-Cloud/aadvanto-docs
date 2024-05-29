@@ -32,12 +32,10 @@ export default defineConfig({
           autogenerate: { directory: "introduction" },
         },
         {
-          label: "Guides",
-          items: [
-            // Each item here is one entry in the navigation menu.
-            { label: "Example Guide", link: "guides/example/" },
-          ],
+          label: "Dashboard Overview",
+          autogenerate: { directory: "dashboard-overview" },
         },
+
         {
           label: "Reference",
           autogenerate: { directory: "reference" },
