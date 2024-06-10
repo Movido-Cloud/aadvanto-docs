@@ -39,6 +39,7 @@ export default defineConfig({
           label: "Ticket System",
           autogenerate: { directory: "ticketing" },
         },
+
         {
           label: "Reference",
           autogenerate: { directory: "reference" },
