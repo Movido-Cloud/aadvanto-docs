@@ -32,10 +32,13 @@ export default defineConfig({
           autogenerate: { directory: "introduction" },
         },
         {
-          label: "Dashboard Overview",
-          autogenerate: { directory: "dashboard-overview" },
+          label: "Customer Data",
+          autogenerate: { directory: "customer-data" },
         },
-
+        {
+          label: "Ticket System",
+          autogenerate: { directory: "ticketing" },
+        },
         {
           label: "Reference",
           autogenerate: { directory: "reference" },
