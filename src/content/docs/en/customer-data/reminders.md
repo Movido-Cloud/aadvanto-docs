@@ -19,7 +19,7 @@ The Payment Reminder, or "Zahlungserinnerung," is the first level of notificatio
 
 **Example of Payment Reminder:**
 
-![Payment Reminder]
+![Payment Reminder](../../../../assets/reminderlvl1.png)
 
 #### Level 2: Final Reminder (Letzte Mahnung)
 
@@ -31,7 +31,7 @@ The Final Reminder, or "Letzte Mahnung," is the second level of notification sen
 
 **Example of Final Reminder:**
 
-![Final Reminder]
+![Final Reminder](../../../../assets/reminderlvl2.png)
 
 ### Understanding the Reminder Levels
 
