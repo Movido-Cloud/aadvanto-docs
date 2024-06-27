@@ -13,7 +13,7 @@ The SEPA Direct Debit menu allows you to manage SEPA direct debit transactions e
    - Go to `Bank` in the sidebar menu.
    - Select `SEPA Direct Debit`.
 
-   ![SEPA Direct Debit Menu]
+   ![SEPA Direct Debit Menu](../../../../assets/sepadirectdebitnav.png)
 
 ### Generating SEPA Direct Debit Files
 
@@ -21,7 +21,7 @@ The SEPA Direct Debit menu allows you to manage SEPA direct debit transactions e
    - In the SEPA Direct Debit menu, select `Generate File`.
    - Choose the date range: `1st - 15th`, `16th - 1st`, or `custom`.
 
-   ![Generate File]
+   ![Generate File](../../../../assets/generatefile.png)
 
 2. **Set Parameters:**
    - **Invoice Date:** Select the date range for the invoices.
@@ -30,13 +30,9 @@ The SEPA Direct Debit menu allows you to manage SEPA direct debit transactions e
    - **Payment Processor:** Select `FinXP`.
    - **Direct Debit Setting:** Choose either `1` or `15` for the setting.
 
-   ![Set Parameters]
-
 3. **Preview and Export CSV:**
    - Click `Preview CSV` to review the file.
    - Click `Export CSV` to generate the file for upload to FinXP.
-
-   ![Export CSV]
 
 ## Export Jobs and Instructions
 
@@ -69,7 +65,7 @@ SEPA Chargebacks allow you to handle refunds or returned payments from customers
    - Select `Import`.
    - Click on the `Charge Back` tab.
 
-   ![Chargeback Import Menu]
+   ![Chargeback Import Menu](../../../../assets/chargebackimport.png)
 
 ### Importing Chargeback File
 
@@ -78,13 +74,9 @@ SEPA Chargebacks allow you to handle refunds or returned payments from customers
    - **File Format:** Choose the file format (e.g., Chargeback XLSX).
    - Drag and drop the chargeback file or browse to upload it.
 
-   ![Upload Chargeback File]
-
 2. **Test and Import:**
    - Click `Test Import` to check the file format.
    - Click `Import` to process the chargebacks.
-
-   ![Test and Import]
 
 ### Processing Chargebacks
 
@@ -105,9 +97,3 @@ SEPA Chargebacks are crucial for managing refunds or returned payments. By impor
 ## Conclusion
 
 The SEPA Direct Debit and Chargeback features in our billing system streamline the process of managing direct debit transactions and handling chargebacks. By integrating with FinXP, our system ensures efficient and accurate processing, helping you maintain smooth financial operations.
-
-For further details or assistance, refer to the respective sections in the user manual or contact our support team.
-
-![SEPA Process]
-
-This extended Markdown documentation includes more detailed explanations and additional images to provide a thorough understanding of the SEPA Direct Debit and Chargeback features in your billing system.
