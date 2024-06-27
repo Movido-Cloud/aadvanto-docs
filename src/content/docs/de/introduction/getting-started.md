@@ -1,5 +1,5 @@
 ---
-title: Willkommen beim Abrechnungssystem
+title: Willkommen in unseren Biling
 description: Beginnen Sie mit dem Verkauf Ihrer eigenen Produkte mit unserem hochmodernen Abrechnungssystem.
 ---
 Willkommen beim Advanto-Abrechnungssystem! Unsere Plattform ist darauf ausgelegt, Ihre Abrechnungs- und Kundenmanagementprozesse zu optimieren und Ihnen die Verwaltung Ihrer Geschäftstätigkeiten zu erleichtern. Diese Anleitung führt Sie durch die verschiedenen Funktionen und Merkmale des Advanto-Abrechnungssystems und vermittelt Ihnen das notwendige Wissen, um das System optimal zu nutzen.
